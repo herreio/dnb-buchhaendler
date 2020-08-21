@@ -1,0 +1,8 @@
+importer:
+  dnb-booksellers:
+    package: OAI
+    options:
+      url: https://services.dnb.de/oai2/repository
+      set: dnb:digitalisate-oa:projekt29
+      metadataPrefix: mets
+      handler: raw

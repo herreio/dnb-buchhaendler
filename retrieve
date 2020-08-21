@@ -1,0 +1,15 @@
+#!/usr/bin/env bash
+MARC21=https://data.dnb.de/Buchhaendler/buchhaendlerportraets_dnbmarc_20200708mrc.xml
+echo ""
+echo "starting retrieval of bookseller portrait data sets!"
+echo ""
+echo "start retrieving MARC 21 XML ..."
+wget $MARC21 -O 'marc21/records.xml' -o wget.log
+echo "done retrieving MARC 21 XML!"
+echo ""
+echo "start retrieving METS/MODS XML ..."
+catmandu convert dnb-booksellers -pretty 1 > mets-mods/records.xml
+echo "done retrieving METS/MODS XML!"
+echo ""
+echo "done retrieving bookseller portrait data!"
+echo ""
