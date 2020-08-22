@@ -36,4 +36,4 @@
 ## XML-Dateien
 
 - [`marc21/records.xml`](./marc21/records.xml)
-- [`mets-mods/records.xml`](./mets-mods/records.xml)
+- [`mets-mods/records.json`](./mets-mods/records.json)
