@@ -34,7 +34,7 @@
 
 - [`./retrieve`](./retrieve)
 
-## XML-Dateien
+## Formate
 
-- [`marc21/records.xml`](./marc21/records.xml)
-- [`mets-mods/records.json`](./mets-mods/records.json)
+- [`marc21`](./marc21)
+- [`mets-mods`](./mets-mods)
