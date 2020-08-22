@@ -11,7 +11,7 @@ catmandu convert MARC --type XML to JSON --pretty 1 < marc21/records.xml > marc2
 echo "done converting MARC 21 XML!"
 echo ""
 echo "start retrieving METS/MODS XML ..."
-catmandu convert dnb-booksellers > mets-mods/records.json
+catmandu convert dnb-booksellers to JSON --pretty 1 > mets-mods/records.json
 echo "done retrieving METS/MODS XML!"
 echo ""
 echo "done retrieving bookseller portrait data!"
