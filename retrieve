@@ -8,7 +8,7 @@ wget $MARC21 -O 'marc21/records.xml' -o wget.log
 echo "done retrieving MARC 21 XML!"
 echo ""
 echo "start retrieving METS/MODS XML ..."
-catmandu convert dnb-booksellers -pretty 1 > mets-mods/records.xml
+catmandu convert dnb-booksellers > mets-mods/records.json
 echo "done retrieving METS/MODS XML!"
 echo ""
 echo "done retrieving bookseller portrait data!"
