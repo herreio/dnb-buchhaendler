@@ -6,6 +6,9 @@ echo ""
 echo "start retrieving MARC 21 XML ..."
 wget $MARC21 -O 'marc21/records.xml' -o wget.log
 echo "done retrieving MARC 21 XML!"
+echo "start converting MARC 21 XML ..."
+catmandu convert MARC --type XML to JSON --pretty 1 < marc21/records.xml > marc21/records.json
+echo "done converting MARC 21 XML!"
 echo ""
 echo "start retrieving METS/MODS XML ..."
 catmandu convert dnb-booksellers > mets-mods/records.json
