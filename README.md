@@ -27,6 +27,7 @@
 
 - [Wget](https://www.gnu.org/software/wget/)
 - [Catmandu](https://librecat.org/Catmandu/)
+    - [Catmandu::MARC](https://metacpan.org/release/Catmandu-MARC)
     - [Catmandu::OAI](https://metacpan.org/release/Catmandu-OAI)
 
 ## Routine
